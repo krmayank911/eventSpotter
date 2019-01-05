@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.LauncherActivity"
+    android:background="#f1f5f8">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@id/btn_googleSignIn"
+        android:layout_marginBottom="50dp"
+        android:text="@string/launcher_msg"
+        style="@style/TextStyleTitle18"/>
+
+    <com.google.android.gms.common.SignInButton
+        android:id="@+id/btn_googleSignIn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textAlignment="center"/>
+
+    <LinearLayout
+        android:id="@+id/btn_mobileSignIn"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_below="@id/btn_googleSignIn"
+        android:background="@drawable/bg_button_phone"
+        android:layout_centerInParent="true"
+        android:elevation="3dp"
+        android:layout_marginTop="20dp"
+        android:paddingRight="10dp">
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_weight="0.6"
+            android:layout_height="wrap_content"
+            android:src="@drawable/phone"
+            android:padding="5dp"
+            android:tint="@android:color/holo_blue_dark"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sign_in"
+            style="@style/TextStyleTitle16"
+            android:textAllCaps="false"
+            android:textColor="@color/label_color"
+            android:layout_gravity="center"/>
+
+    </LinearLayout>
+
+    <com.buggyarts.eventspotter.customViews.PhoneAuthDialog
+        android:id="@+id/phoneAuthDialog"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        android:elevation="4dp"/>
+
+</RelativeLayout>

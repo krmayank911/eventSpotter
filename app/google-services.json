@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "969071217547",
+    "firebase_url": "https://eventspotter-aceb1.firebaseio.com",
+    "project_id": "eventspotter-aceb1",
+    "storage_bucket": "eventspotter-aceb1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:969071217547:android:a33217ccc15c1f7f",
+        "android_client_info": {
+          "package_name": "com.buggyarts.eventspotter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "969071217547-rak10cmdm23ie1bomrg4s06lh59rup2l.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.buggyarts.eventspotter",
+            "certificate_hash": "08f3aefa209b64c4423e21e714da01c6e77c3b1e"
+          }
+        },
+        {
+          "client_id": "969071217547-e3psqpgjp7dt40490fp2btfq4b7tmtkq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDqIuAOtHHtMK9gceMY7hv1QUunt_uag68"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "969071217547-e3psqpgjp7dt40490fp2btfq4b7tmtkq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

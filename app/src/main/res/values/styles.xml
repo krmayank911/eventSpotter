@@ -1,0 +1,52 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="EditTextStyle1" parent="@android:style/TextAppearance">
+        <item name="android:textSize">20sp</item>
+        <item name="colorAccent">@color/white</item>
+        <item name="android:letterSpacing">0.2</item>
+        <item name="android:textColor">@color/label_color</item>
+
+    </style>
+
+    <style name="TextStyleTitle16">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textColor">@color/sublabel_color</item>
+    </style>
+
+    <style name="TextStyleTitle18">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textColor">@color/sublabel_color</item>
+    </style>
+
+    <style name="TextStyleTitle14">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textColor">@color/sublabel_color</item>
+    </style>
+
+    <style name="TextStyle16">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/label_color</item>
+    </style>
+
+    <style name="TextStyle18">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/label_color</item>
+    </style>
+
+    <style name="TextStyle14">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/label_color</item>
+    </style>
+
+</resources>

@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Event Spotter</string>
+    <!--<string name="default_web_client_id">969071217547-po2dqas4n53po4okj814u68ndnb6fjcc.apps.googleusercontent.com</string>
+    -->
+
+    <string name="launcher_msg">Sign in to post events</string>
+    <string name="sign_in">Sign in</string>
+    <string name="edit_no">Edit Number</string>
+
+    <string name="mobile_no_empty_error">Please enter a mobile number.</string>
+    <string name="mobile_no_length_error">Please enter a valid mobile number.</string>
+    <string name="error_invalid_otp">Invalid OTP</string>
+
+
+    <string name="enter_event_name">Event Name</string>
+    <string name="enter_event_organizer_name">Event Organizer Name</string>
+    <string name="enter_event_description">Event Description</string>
+    <string name="enter_event_organizer_contact">Event Organizer Contact</string>
+    <string name="enter_event_schedule">Event Schedule</string>
+    <string name="enter_event_place">Event Place</string>
+
+    <string name="error_event_contact">Please enter a valid 10 digit contact number.</string>
+    <string name="error_event_place">Please enter an event Location.</string>
+    <string name="error_event_schedule">Please enter an event Schedule.</string>
+    <string name="error_event_name">Event Name can not be left empty.</string>
+    <string name="error_event_description">Event Description can not be left empty.</string>
+    <string name="error_event_organizer_name">Event Organizer Name can not be left empty.</string>
+
+
+</resources>

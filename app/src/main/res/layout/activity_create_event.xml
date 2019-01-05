@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.CreateEventActivity">
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/btn_create_event">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/nameFieldLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="10dp"
+                app:hintTextAppearance="@style/EditTextStyle1">
+
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/nameField"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/enter_event_name"
+                    android:inputType="text"
+                    android:textColorHint="@color/sublabel_color"
+                    android:textColor="@color/sublabel_color"/>
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/organizerFieldLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="10dp"
+                app:hintTextAppearance="@style/EditTextStyle1">
+
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/organizerField"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/enter_event_organizer_name"
+                    android:inputType="text"
+                    android:textColorHint="@color/sublabel_color"
+                    android:textColor="@color/sublabel_color"/>
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/descriptionFieldLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="10dp"
+                app:hintTextAppearance="@style/EditTextStyle1">
+
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/descriptionField"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/enter_event_description"
+                    android:inputType="textMultiLine"
+                    android:textColorHint="@color/sublabel_color"
+                    android:textColor="@color/sublabel_color"/>
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/contactFieldLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="10dp"
+                app:hintTextAppearance="@style/EditTextStyle1">
+
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/contactField"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/enter_event_organizer_contact"
+                    android:inputType="number"
+                    android:textColorHint="@color/sublabel_color"
+                    android:textColor="@color/sublabel_color"/>
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/scheduleFieldLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="10dp"
+                app:hintTextAppearance="@style/EditTextStyle1">
+
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/scheduleField"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/enter_event_schedule"
+                    android:inputType="datetime"
+                    android:textColorHint="@color/sublabel_color"
+                    android:textColor="@color/sublabel_color"/>
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/placeFieldLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="10dp"
+                app:hintTextAppearance="@style/EditTextStyle1">
+
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/placeField"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/enter_event_place"
+                    android:inputType="textPostalAddress"
+                    android:textColorHint="@color/sublabel_color"
+                    android:textColor="@color/sublabel_color"/>
+
+            </android.support.design.widget.TextInputLayout>
+
+        </LinearLayout>
+
+    </android.support.v4.widget.NestedScrollView>
+
+    <FrameLayout
+        android:id="@+id/btn_create_event"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/bg_button">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Create Event"
+            android:textSize="22sp"
+            android:layout_gravity="center"
+            android:textColor="@color/white"
+            android:textAllCaps="true"
+            android:textStyle="bold"/>
+
+    </FrameLayout>
+
+
+</RelativeLayout>
